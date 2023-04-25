@@ -9,4 +9,8 @@ The Quran is written Next.js and Redux Toolkit.
 # Creating a new Next.js app
 ```
 pnpm create next-app --typescript
+pnpm dev
+
+#update pnpm
+corepack prepare pnpm@VERSION --activate
 ```
