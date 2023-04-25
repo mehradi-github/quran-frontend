@@ -7,6 +7,7 @@ The Quran is written Next.js and Redux Toolkit.
 
 
 # Creating a new Next.js app
+Next.js is a flexible React framework that gives you building blocks to create fast web applications. ([Install Next.js](https://github.com/mehradi-github/ref-portfolio#install-nextjs))
 ```
 pnpm create next-app --typescript
 pnpm dev
