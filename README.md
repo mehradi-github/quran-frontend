@@ -12,6 +12,11 @@ The Quran is written Next.js and Redux Toolkit.
 ### Installing pnpm
 ```sh
 npm install -g pnpm
+
+# Updates all dependencies, adhering to ranges specified in package.json
+pnpm up
+# Updates all dependencies, ignoring ranges specified in package.json
+pnpm up --latest
 ```
 
 ## [Creating a new Next.js app](https://github.com/mehradi-github/ref-portfolio#install-nextjs)
