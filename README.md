@@ -14,10 +14,14 @@ The Quran is written Next.js and Redux Toolkit.
 ```sh
 npm install -g pnpm
 
+# Create next-app via Pnpm
+pnpm create next-app@latest quran-frontend --template typescript
+
 # Updates all dependencies, adhering to ranges specified in package.json
 pnpm up
 # Updates all dependencies, ignoring ranges specified in package.json
 pnpm up --latest
+
 ```
 ### Setup ESLint, Prettier 
 Setup Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM

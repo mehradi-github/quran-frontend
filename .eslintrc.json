@@ -5,10 +5,7 @@
   },
   "extends": [
     "next/core-web-vitals",
-    "react-app",
-    "react-app/jest",
     "eslint:recommended",
-    "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "plugin:testing-library/react",
