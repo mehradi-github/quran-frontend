@@ -7,16 +7,23 @@ The Quran is written Next.js and Redux Toolkit.
     - [Installing pnpm](#installing-pnpm)
     - [Setup ESLint, Prettier](#setup-eslint-prettier)
     - [Mock Service Worker](#mock-service-worker)
-  - [Creating a new Next.js app](#creating-a-new-nextjs-app)
   - [Deploy on Vercel](#deploy-on-vercel)
 
 ## Prerequisites
 ### Installing pnpm
+Next.js is a flexible React framework that gives you building blocks to create fast web applications. [https://github.com/mehradi-github/ref-portfolio#install-nextjs](https://github.com/mehradi-github/ref-portfolio#install-nextjs)
 ```sh
 npm install -g pnpm
 
 # Create next-app via Pnpm
+pnpm create next-app --typescript
+# OR
 pnpm create next-app@latest quran-frontend --template typescript
+
+pnpm dev
+
+#update pnpm
+corepack prepare pnpm@VERSION --activate
 
 # Updates all dependencies, adhering to ranges specified in package.json
 pnpm up
@@ -29,16 +36,6 @@ Setup Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM
   [https://github.com/mehradi-github/ref-jest-rtl](https://github.com/mehradi-github/ref-jest-rtl)
 ### Mock Service Worker
 Simulating server response and test components without server: [https://github.com/mehradi-github/ref-cafe-msw](https://github.com/mehradi-github/ref-cafe-msw)  
-## [Creating a new Next.js app](https://github.com/mehradi-github/ref-portfolio#install-nextjs)
-Next.js is a flexible React framework that gives you building blocks to create fast web applications. 
-```
-pnpm create next-app --typescript
-pnpm dev
-
-#update pnpm
-corepack prepare pnpm@VERSION --activate
-```
-
 
 ## Deploy on Vercel
 
