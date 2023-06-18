@@ -6,6 +6,7 @@ The Quran is written Next.js and Redux Toolkit.
   - [Prerequisites](#prerequisites)
     - [Installing pnpm](#installing-pnpm)
     - [Setup ESLint, Prettier](#setup-eslint-prettier)
+    - [Mock Service Worker](#mock-service-worker)
   - [Creating a new Next.js app](#creating-a-new-nextjs-app)
   - [Deploy on Vercel](#deploy-on-vercel)
 
@@ -26,7 +27,8 @@ pnpm up --latest
 ### Setup ESLint, Prettier 
 Setup Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM
   [https://github.com/mehradi-github/ref-jest-rtl](https://github.com/mehradi-github/ref-jest-rtl)
-  
+### Mock Service Worker
+Simulating server response and test components without server: [https://github.com/mehradi-github/ref-cafe-msw](https://github.com/mehradi-github/ref-cafe-msw)  
 ## [Creating a new Next.js app](https://github.com/mehradi-github/ref-portfolio#install-nextjs)
 Next.js is a flexible React framework that gives you building blocks to create fast web applications. 
 ```
