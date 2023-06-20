@@ -5,6 +5,7 @@ The Quran is written Next.js and Redux Toolkit.
 - [The Quran Front-end](#the-quran-front-end)
   - [Prerequisites](#prerequisites)
     - [Installing pnpm](#installing-pnpm)
+    - [Jest and React Testing Library](#jest-and-react-testing-library)
     - [Setup ESLint, Prettier](#setup-eslint-prettier)
     - [Mock Service Worker](#mock-service-worker)
   - [Deploy on Vercel](#deploy-on-vercel)
@@ -31,6 +32,8 @@ pnpm up
 pnpm up --latest
 
 ```
+### Jest and React Testing Library
+[Jest and React Testing Library](https://nextjs.org/docs/pages/building-your-application/optimizing/testing#jest-and-react-testing-library) are frequently used together for Unit Testing.
 ### Setup ESLint, Prettier 
 Setup Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM
   [https://github.com/mehradi-github/ref-jest-rtl](https://github.com/mehradi-github/ref-jest-rtl)
