@@ -1,7 +1,7 @@
 version: '3'
 services: 
     cypress_test:
-        image: cypress_compose
+        image: e2e-cypress
         build: 
             context: .
             dockerfile: ./Dockerfile
