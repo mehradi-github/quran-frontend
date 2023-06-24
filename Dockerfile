@@ -5,8 +5,10 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install
+RUN npm install pnpm
 
-RUN $(npm bin)/cypress verify
+RUN pnpm install
 
-CMD ["npm", "run", "cy:e2e"]
+RUN $(pnpm bin)/cypress verify
+
+CMD ["pnpm", "run", "cy:e2e"]

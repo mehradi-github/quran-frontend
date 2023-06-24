@@ -8,6 +8,7 @@ The Quran is written Next.js and Redux Toolkit.
     - [Jest and React Testing Library](#jest-and-react-testing-library)
     - [Setup ESLint, Prettier](#setup-eslint-prettier)
     - [Mock Service Worker](#mock-service-worker)
+    - [Mocking API with Cypress](#mocking-api-with-cypress)
   - [Deploy on Vercel](#deploy-on-vercel)
 
 ## Prerequisites
@@ -39,7 +40,9 @@ Setup Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM
   [https://github.com/mehradi-github/ref-jest-rtl](https://github.com/mehradi-github/ref-jest-rtl)
 ### Mock Service Worker
 Simulating server response and test components without server: [https://github.com/mehradi-github/ref-cafe-msw](https://github.com/mehradi-github/ref-cafe-msw)  
-
+### Mocking API with Cypress
+Cypress is a purely JavaScript-based front-end testing tool built for the modern web. 
+[https://github.com/mehradi-github/e2e-cypress-docker#mocking-api-with-cypress](https://github.com/mehradi-github/e2e-cypress-docker#mocking-api-with-cypress)
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
