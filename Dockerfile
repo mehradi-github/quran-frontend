@@ -8,6 +8,7 @@ FROM base AS dependencies
 WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
 RUN pnpm i
+RUN pnpm add -D cypress
 
 FROM base AS e2e
 WORKDIR /app

@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
-    "cy:e2e": "cypress run"
+    "cy:run": "cypress run",
+    "cy:e2e": "start-test start http://localhost:3000 cy:run"
   },
   "dependencies": {
     "next": "13.4.6",
