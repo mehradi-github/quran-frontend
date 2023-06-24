@@ -5,6 +5,9 @@ services:
         build: 
             context: .
             dockerfile: ./Dockerfile
+            target: e2e
+        ports:
+          - 3000:3000
         volumes: 
             - ./dockerReports/:/app/cypress/results
             - ./dockerReports/:/app/mochawesome-report
