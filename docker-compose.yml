@@ -5,7 +5,7 @@ services:
         build: 
             context: .
             dockerfile: ./Dockerfile
-            target: e2e
+            target: report
         ports:
           - 3000:3000
         volumes: 

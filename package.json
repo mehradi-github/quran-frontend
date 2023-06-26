@@ -8,8 +8,11 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
-    "cy:run": "cypress run",
-    "cy:e2e": "start-test start http://localhost:3000 cy:run"
+    "cy:run": "npx cypress run",
+    "delete:results": "rm -rf cypress/results/* || true",
+    "delete:mochawesome-report": "rm -rf mochawesome-report/* || true",
+    "mochawesome:merge": "npx mochawesome-merge cypress/results/*.json > mochawesome.json && npx marge mochawesome.json",
+    "cy:report":"npm run delete:results && npm run delete:mochawesome-report && npm run cy:run && npm run mochawesome:merge"
   },
   "dependencies": {
     "next": "13.4.6",
