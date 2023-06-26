@@ -1,10 +1,6 @@
 import { defineConfig } from 'cypress'
 
 export default defineConfig({
-  reporter: 'cypress-multi-reporters',
-  reporterOptions: {
-    configFile: 'reporter-config.json',
-  },
   env: {
         FOO: 'bar',
   },
@@ -21,5 +17,12 @@ export default defineConfig({
       framework: 'next',
       bundler: 'webpack',
     },
+  },
+  reporter: 'mochawesome',
+  reporterOptions: {
+    reportDir: 'cypress/results',
+    overwrite: false,
+    html: false,
+    json: true,
   },
 })
