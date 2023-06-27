@@ -12,7 +12,7 @@
     "delete:results": "rm -rf cypress/results/* || true",
     "delete:mochawesome-report": "rm -rf mochawesome-report/* || true",
     "mochawesome:merge": "pnpx mochawesome-merge \"cypress/results/*.json\" > mochawesome.json && pnpx marge mochawesome.json",
-    "cy:report":"pnpm run delete:results && pnpm run delete:mochawesome-report && pnpm run cy:run && pnpm run mochawesome:merge",
+    "cy:report":"pnpm run delete:results && pnpm run delete:mochawesome-report && pnpm run cy:e2e:headless && pnpm run mochawesome:merge",
     "cy:e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
     "cy:e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
     "cy:component": "cypress open --component",

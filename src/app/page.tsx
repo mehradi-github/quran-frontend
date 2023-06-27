@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p className='wellcome'>
+        <h1>Welcome Next.js</h1>
+        <p className='welcome'>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
