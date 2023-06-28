@@ -10,19 +10,26 @@ export default defineConfig({
     retries:{
         runMode:1,
         openMode:1
-    }
+    },
+    setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
+    },
   },
   component: {
     devServer: {
       framework: 'next',
       bundler: 'webpack',
     },
+    setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
+    },
   },
-  reporter: 'mochawesome',
+  reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
-    reportDir: 'cypress/results',
-    overwrite: false,
-    html: false,
-    json: true,
+    charts: true,
+    reportPageTitle: 'Reports',
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    saveAllAttempts: false,
   },
 })
