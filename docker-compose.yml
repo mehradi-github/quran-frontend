@@ -9,5 +9,4 @@ services:
         ports:
           - 3000:3000
         volumes: 
-            - ./dockerReports/:/app/cypress/results
-            - ./dockerReports/:/app/mochawesome-report
+            - ./dockerReports/:/app/cypress/reports

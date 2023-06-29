@@ -15,4 +15,4 @@ COPY . .
 COPY --from=dependencies /app/node_modules ./node_modules
 RUN $(pnpm bin)/cypress verify
 
-CMD ["pnpm", "run", "cy:report"]
+CMD ["pnpm", "run", "cy:e2e:headless"]
