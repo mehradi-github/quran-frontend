@@ -38,8 +38,6 @@ pnpm up --latest
 ### Setup ESLint, Prettier 
 Setup Prettier, ESLint Plugin for Testing Library, ESLint Plugin for Jest DOM
   [https://github.com/mehradi-github/ref-jest-rtl](https://github.com/mehradi-github/ref-jest-rtl)
-### Mock Service Worker
-Simulating server response and test components without server: [https://github.com/mehradi-github/ref-cafe-msw](https://github.com/mehradi-github/ref-cafe-msw)  
 ### Mocking API with Cypress
 Cypress is a purely JavaScript-based front-end testing tool built for the modern web. 
 [https://github.com/mehradi-github/e2e-cypress-docker#mocking-api-with-cypress](https://github.com/mehradi-github/e2e-cypress-docker#mocking-api-with-cypress)
