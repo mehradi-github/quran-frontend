@@ -26,6 +26,9 @@ dependencies:
   react-redux:
     specifier: ^8.1.1
     version: 8.1.1(@types/react-dom@18.2.6)(@types/react@18.2.13)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+  reselect:
+    specifier: ^4.1.8
+    version: 4.1.8
 
 devDependencies:
   '@testing-library/jest-dom':
