@@ -1,12 +1,13 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import React from 'react';
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <h1>Welcome Next.js</h1>
-        <p className='welcome'>
+        <p className="welcome">
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
@@ -92,5 +93,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
