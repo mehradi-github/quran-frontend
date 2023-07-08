@@ -44,6 +44,7 @@
     "jest-environment-jsdom": "^29.5.0",
     "msw": "^1.2.2",
     "prettier": "^3.0.0",
+    "redux-logger": "^3.0.6",
     "start-server-and-test": "^2.0.0",
     "typescript": "5.1.3"
   }
