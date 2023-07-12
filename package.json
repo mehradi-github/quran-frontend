@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.16",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
     "@reduxjs/toolkit": "^1.9.5",
     "graphql": "^16.7.1",
     "next": "13.4.6",
@@ -25,6 +27,7 @@
     "reselect": "^4.1.8"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^4.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/node": "20.3.1",
