@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
-    "schema:download": "pnpx apollo service:download --endpoint=http://localhost/graphql ./src/graphql/graphql-schema.json",
+    "schema:download": "pnpx apollo service:download --endpoint=http://localhost:3002/graphql ./src/graphql/graphql-schema.json",
+    "codegen": "graphql-code-generator --config ./codegen.yml --watch",
     "cy:e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
     "cy:e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
     "cy:component": "cypress open --component",
@@ -16,6 +17,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.16",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
     "@reduxjs/toolkit": "^1.9.5",
     "graphql": "^16.7.1",
     "next": "13.4.6",
@@ -25,6 +28,7 @@
     "reselect": "^4.1.8"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^4.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/node": "20.3.1",
